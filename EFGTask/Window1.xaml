@@ -1,0 +1,87 @@
+﻿<Window x:Class="EFGTask.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EFGTask"
+        mc:Ignorable="d"
+        Title="Window1" Height="500" Width="1100">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="124*"></ColumnDefinition>
+            <ColumnDefinition Width="124*"></ColumnDefinition>
+            <ColumnDefinition Width="124*"></ColumnDefinition>
+
+            <ColumnDefinition Width="155*"></ColumnDefinition>
+            <ColumnDefinition Width="155*"></ColumnDefinition>
+            <ColumnDefinition Width="124*"></ColumnDefinition>
+            <ColumnDefinition Width="124*"></ColumnDefinition>
+            <ColumnDefinition Width="124*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Column="0" Grid.Row="0" Orientation="Vertical">
+            <Label Content="KYC"></Label>
+            <Label  Content="City Of Birth" ></Label>
+            <Label Content="Client Job"></Label>
+            <Label Content="Employer" ></Label>
+            <Label Content="client Category"></Label>
+            <Label  Content="SWIFT Adderss"></Label>
+            <Label Content="Secret Number"></Label>
+
+
+        </StackPanel>
+        <StackPanel Grid.Column="1" Grid.Row="0" Orientation="Vertical" Margin="20,25,0,0">
+            <Label  Content="City Of Birth" ></Label>
+            <Label Content="Client Job"></Label>
+            <Label Content="Employer" ></Label>
+            <Label Content="client Category"></Label>
+            <Label  Content="SWIFT Adderss"></Label>
+            <Label Content="Secret Number"></Label>
+
+        </StackPanel>
+
+        <StackPanel Grid.Column="3" Grid.Row="0" Orientation="Vertical" Margin="0,25,0,0">
+            <Label Content="Country of Issuance"></Label>
+            <Label Content="City of Issuance"></Label>
+            <Label Content=" Datetime of Issuance"></Label>
+            <Label Content="Expected Portfolio Size"></Label>
+            <Label Content="Source of Funds"></Label>
+            <Label Content="Employee"></Label>
+
+        </StackPanel>
+        <StackPanel Grid.Column="4" Grid.Row="0" Orientation="Vertical" Margin="20,25,0,0">
+            <Label Content="Country of Issuance"></Label>
+            <Label Content="City of Issuance"></Label>
+            <Label Content=" Datetime of Issuance" Background="#FF206891"></Label>
+            <Label Content="Expected Portfolio Size" Background="Transparent"></Label>
+            <Label Content="Source of Funds"></Label>
+            <Label Content="Employee"></Label>
+        </StackPanel>
+
+        <StackPanel Grid.Column="6" Grid.Row="0" Margin="0,25,0,0">
+            <Label  Content="House hold"></Label>
+            <Label Content="Non House hold"></Label>
+            <Label Content="Employee Name"></Label>
+            <Label Content="Risk Rating"></Label>
+            <Label Content="Islmaic Account"></Label>
+            <Label Content="FATCA"></Label>
+        </StackPanel>
+        <StackPanel Grid.Column="7" Grid.Row="0" Margin="20,25,0,0">
+            <Label  Content="House hold"></Label>
+            <Label Content="Non House hold"></Label>
+            <Label Content="Employee Name"></Label>
+            <Label Content="Risk Rating"></Label>
+            <Label Content="Islmaic Account"></Label>
+            <Label Content="FATCA"></Label>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="8" Orientation="Vertical">
+            <Label Content="POA AND DELEGATES"></Label>
+            <DataGrid ></DataGrid>
+        </StackPanel>
+
+
+    </Grid>
+</Window>
